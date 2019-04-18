@@ -1,0 +1,5 @@
+﻿<div>
+  <div id="theWarning" class="alert alert-warning" [hidden]="!error">{{ error }}</div>
+  <div id="theWarning" class="alert alert-primary"  [hidden]="!isBusy">Loading...</div>
+  <router-outlet></router-outlet>
+</div>
